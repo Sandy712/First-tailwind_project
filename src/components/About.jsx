@@ -17,7 +17,7 @@ function About() {
             </div>
             <div className='flex flex-col xl:justify-around  xl:flex-row bg-violet-200 p-4 xl:py-16'>
                 <img src={team} alt='team work' className='xl:max-w-md' ></img>
-                <article className='font-medium p-2 xl:w-1/2'>
+                <article className='font-medium p-2 xl:px-20 xl:p-0 xl:w-1/2'>
                     <p className='font-bold text-2xl font-mono  inline '>
                         Combining Search  engine marketing with conversion rate optimiztaion(CRO)
                     </p>
@@ -30,7 +30,7 @@ function About() {
                 </article>
             </div>
             <div className="flex flex-col-reverse xl:justify-around xl:flex-row p-4 bg-violet-200 xl:py-16">
-                <section className='font-sans items-center py-12 xl:w-1/2'>
+                <section className='font-sans items-center py-12 xl:w-1/2 xl:pr-20'>
                     <h3 className='font-bold text-3xl py-5'>Real certified Google Ads Professionals</h3>
                     <p className='font-normal mt-2'>Get a team of certified Google Adwards/SEM specialists who have a minimum of 2 years experience managing various SEM campaigns locally. We help you create the perfect combination of strategy and implementation to ensure we achieve your goals.</p>
                 </section>
