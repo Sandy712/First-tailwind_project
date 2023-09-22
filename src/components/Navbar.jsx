@@ -4,7 +4,7 @@ import { SiTailwindcss } from 'react-icons/si';
 export default function Navbar() {
     return (
         <>
-            <nav className='px-20 py-4 bg-white-500 text-black flex'>
+            <nav className='px-8 py-4 bg-white-500 text-black flex'>
                 <div className="flex grow ">
                     <SiTailwindcss size={30} />
                 </div>

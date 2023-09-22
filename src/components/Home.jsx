@@ -5,8 +5,8 @@ import eyes from '../Images/pexels-c.png';
 function Home() {
     return (
         <>
-            <div className="flex justify-around bg-violet-200 p-4">
-                <section className='p-2 py-20  font-medium'>
+            <div className="flex flex-col xl:justify-around xl:flex-row p-4 bg-violet-200 ">
+                <section className='p-2 py-6 xl:py-20  font-medium '>
                     <h3>Marketing Solutions</h3>
                     <p className=' font-mono font-black   mt-3 mb-4 text-5xl'>
                         Social Media <br/>Marketing
@@ -20,8 +20,8 @@ function Home() {
                         <p>Get a Free Audit →</p>
                     </button>
                 </section>
-                <section className='p-12 '>
-                    <img src={eyes} alt="social" style={{height:"400px",width:"450px"}} />
+                <section className='p-2 xl:p-12 '>
+                    <img src={eyes} alt="social" className='xl:max-h-96'/>
                 </section>
             </div>
         </>
